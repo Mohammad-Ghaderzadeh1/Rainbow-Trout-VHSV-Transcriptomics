@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+type: software
+title: "Rainbow-Trout-VHSV-Transcriptomics"
+authors:
+  - family-names: "Ghaderzadeh"
+    given-names: "Mohammad"
+    affiliation: "Department of Agricultural, Food and Nutritional Science, University of Alberta, Canada"
+    orcid: "https://orcid.org/0000-0001-5600-077X/"  
+abstract: >
+  RNA-seq (Tuxedo) pipeline for VHSV-infected rainbow trout (Oncorhynchus mykiss): 
+  Trimmomatic → Bowtie2/TopHat2 → Cufflinks → Cuffmerge → Cuffdiff. 
+  Based on Ghaderzadeh et al., BMC Genomics (2025).
+repository-code: "https://github.com/Mohammad-Ghaderzadeh1/Rainbow-Trout-VHSV-Transcriptomics"
+license: "MIT"
+version: "1.0.0"
+date-released: "2025-10-15"
+keywords:
+  - RNA-seq
+  - bioinformatics
+  - rainbow trout
+  - VHSV
+  - transcriptomics
+  - Cufflinks
+  - Bowtie2
+  - aquaculture
+references:
+  - type: article
+    title: "Transcriptomic and biometric parameters analysis in rainbow trout (Oncorhynchus mykiss) challenged with viral hemorrhagic septicemia virus (VHSV)"
+    authors:
+      - family-names: "Ghaderzadeh"
+        given-names: "Mohammad"
+      - family-names: "Rahimi Mianji"
+        given-names: " Ghodrat"
+      - family-names: "Nejati Javaremi"
+        given-names: "Ardeshir"
+      - family-names: "Shahbazian"
+        given-names: "Nastaran"
+    journal: "BMC Genomics"
+    year: 2025
+    doi: "10.1186/s12864-025-11300-x"
